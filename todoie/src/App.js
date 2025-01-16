@@ -1,6 +1,8 @@
-import React from 'react';
-import Header from './components/Header';
-import TodoItem from './components/Todoltem';
+import React from "react";
+import Header from "./components/Header";
+import TodoItem from "./components/Todoltem";
+import Button from "./components/Button";
+
 
 
 const App = () => {
@@ -8,6 +10,7 @@ const App = () => {
     <div>
       <Header/>
       <TodoItem/>
+      <Button/>
     </div>
     
   );
