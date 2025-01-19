@@ -1,16 +1,23 @@
 import React from "react";
 import Header from "./components/Header";
 import TodoItem from "./components/Todoltem";
-import Button from "./components/Button";
 
+
+import './style.css';
+import { Button } from "./components/Button"
 
 
 const App = () => {
   return (
-    <div>
+    <div className="todo-container">
       <Header/>
       <TodoItem/>
-      <Button/>
+      <TodoItem/>
+      <TodoItem/>
+      <TodoItem/>
+      
+
+<Button/>
     </div>
     
   );

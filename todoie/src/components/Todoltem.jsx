@@ -3,8 +3,10 @@ import React from 'react';
 const TodoItem = () => {
     return(
         <li className="todio-iteam">
+            <span>
         <input type="chechbox"/>
-        <p>Eat</p>
+        <span className="todo-item-text">Eat</span>
+        </span>
         <p>...</p>
         </li>
     ); 
