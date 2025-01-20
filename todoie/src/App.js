@@ -11,13 +11,12 @@ const App = () => {
   return (
     <div className="todo-container">
       <Header/>
-      <TodoItem/>
-      <TodoItem/>
-      <TodoItem/>
-      <TodoItem/>
-      
-
-<Button/>
+      <TodoItem text="Eat"/>
+      <TodoItem text="Code"/>
+      <TodoItem text="play"/>
+      <TodoItem text="Studey"/>
+      <TodoItem text="Sleep Again"/>
+      <Button/>
     </div>
     
   );

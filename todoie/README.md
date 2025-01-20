@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# whjy do we Need pros ?
+# whjy do we Need props ?
 Pros are like a paramaters to a function.
 
 
@@ -78,7 +78,7 @@ ex :- function MyHeader(){
     return <h1>Hello world </h1>; // not gemeric
 }
 
-Function MyHeader(pros){
+Function MyHeader(props){
     return <h1>props.title</h2>;                 // gemeric
 
 }
