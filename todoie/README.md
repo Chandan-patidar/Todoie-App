@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# whjy do we Need pros ?
+Pros are like a paramaters to a function.
+
+
+ex :- function MyHeader(){
+    return <h1>Hello world </h1>; // not gemeric
+}
+
+Function MyHeader(pros){
+    return <h1>props.title</h2>;                 // gemeric
+
+}
+<MyHeader title="this is my Heading"/>
+
+
+# Parameters
+ function add(){
+    return 2+3;       // bad way to write
+ }
+
+
+function add(a,b){
+    return a+b;        // this is more generic
+}
