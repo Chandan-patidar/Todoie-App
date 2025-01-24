@@ -4,7 +4,7 @@ const TodoItem = (props) => {
     return(
         <li className="todio-iteam">
             <span>
-        <input type="chechbox"/>
+        {props.completed ? <></> : <input type="chechbox"/>}
         <span className="todo-item-text">{props.text}</span>
         </span>
         <p>...</p>
