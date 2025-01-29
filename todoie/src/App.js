@@ -4,13 +4,13 @@ import TodoItem from "./components/Todoltem";
 
 
 import './style.css';
-import { Button } from "./components/Button"
+import {Button }from "./components/Button";
 
 
 const App = () => {
   return (
     <div className="todo-container">
-      <Header/>
+      <Header title="Todoie App"/>
       <TodoItem text="Eat"/>
       <TodoItem completed={true} text="Code"/>
       <TodoItem text="play"/>
