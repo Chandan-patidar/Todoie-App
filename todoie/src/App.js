@@ -12,7 +12,7 @@ const App = () => {
     <div className="todo-container">
       <Header title="Todoie App"/>
       <TodoItem text="Eat"/>
-      <TodoItem completed={true} text="Code"/>
+      <TodoItem text="Code"/>
       <TodoItem text="play"/>
       <TodoItem text="Studey"/>
       <TodoItem text="Sleep Again"/>

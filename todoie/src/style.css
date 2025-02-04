@@ -32,6 +32,12 @@ body{
     cursor: pointer;
 }
 
+.custom-checkbox {
+    width: 10px;   /* Change the width */
+    height: 10px;  /* Change the height */
+}
+
 .todo-item-text{
     margin-left: 5px;
 }
+
