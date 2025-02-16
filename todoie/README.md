@@ -93,4 +93,9 @@ Function MyHeader(props){
 
 function add(a,b){
     return a+b;        // this is more generic
+
 }
+
+Hookes :- Life cycle 
+
+->constructrd -> Mounted -> Update -> un-Mounted -> repeat
