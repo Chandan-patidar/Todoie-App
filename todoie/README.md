@@ -96,6 +96,20 @@ function add(a,b){
 
 }
 
-Hookes :- Life cycle 
+Hookes :- A state  of a component is a variable that holds some information that may  changes over the lifetime of the component.
 
-->constructrd -> Mounted -> Update -> un-Mounted -> repeat
+whenver the value of the state changes ,the component re-renders itself with updated values .
+
+
+Life cycle 
+
+->constructrd -> Mounted -> Update -> un-Mounted -> repeat 
+
+
+# useState Hook 
+
+
+
+
+
+
