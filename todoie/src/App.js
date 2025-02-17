@@ -1,17 +1,18 @@
 import React from "react";
 import Header from "./components/Header";
 import TodoItem from "./components/Todoltem";
-import CounterComponent from "./components/CounterComponent";
-
-
+import {Button }from "./components/Button";
 
 import './style.css';
-import {Button }from "./components/Button";
+import CounterComponent from "./components/CounterComponet";
+
+
 
 
 const App = () => {
   return (
     <div className="todo-container">
+      <CounterComponent/>
       <Header title="Todoie App"/>
       <TodoItem text="Eat"/>
       <TodoItem text="Code"/>
