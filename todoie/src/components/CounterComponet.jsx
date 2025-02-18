@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
 const CounterComponent = () => {
-    const val = useState(0);
-        console.log(val)
+    const [count, setCount] = useState(15);
+    
     return (
         <div>
-            <p> Count Component</p>
+            <p> Count Component - {count}</p>
+            <button onClick={() => setCount(45)}>Increment</button>
+
         </div>
     )
 };
